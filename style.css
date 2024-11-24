@@ -20,7 +20,7 @@ body {
     line-height: 19px;
 }
 
-.table,
+table,
 .footer-link {
     font-size: 14px;
     font-weight: 400;
@@ -29,7 +29,7 @@ body {
 
 /*! заголовок */
 header {
-    background-color: #2965F1;
+    background-color: #2965f1;
     padding: 20px 0;
 }
 
@@ -45,15 +45,15 @@ header span {
 .main-section {
     background-color: #FAFAFF;
     min-height: 100vh;
+    padding: 60px 0;
     /* Стили для первой секции */
 }
 
 .main-title {
-    padding: 60px 20px 0 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -95,12 +95,12 @@ select {
 
 .frameworks-list {
     list-style-image: url(./assets/arrow.svg);
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -114,8 +114,8 @@ select {
 }
 
 .btn {
-    background-color: #2965F1;
-    color: #FAFAFF;
+    background-color: rgb(41, 101, 241);
+    color: #ffffff;
     width: 125px;
     height: 36px;
     font-size: 14px;
@@ -137,7 +137,7 @@ table {
 
 th,
 td {
-    padding: 12px 14px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
