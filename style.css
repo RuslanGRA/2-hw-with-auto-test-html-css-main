@@ -36,6 +36,7 @@ header span {
     padding: 60px 0;
     min-height: 100vh;
     display: flex;
+    align-items: center;
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
 }
 
@@ -46,7 +47,7 @@ header span {
 }
 
 .text-wrapper {
-    max-width: 1140px;
+    max-width: 425px;
 
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
@@ -72,6 +73,10 @@ header span {
 }
 
 .about-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -86,8 +91,6 @@ select {
     background-image: url("./assets/arrow-down.svg");
     background-repeat: no-repeat;
     background-position: right 12px top 50%;
-    display: flex;
-    margin-bottom: 60px;
 }
 
 select:hover,
@@ -139,7 +142,9 @@ select:hover,
 }
 
 .skills {
-    min-width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
